@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+body{
+    padding: 0%;
+    margin: 0%;
+}
+@media(min-width 240px) and (max-width 579px){
+    .menu{
+        display: block;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    gap: 20pxX;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+li{
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px
+    ;
+}
+.nih{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nih a{
+    color: black; 
+}
+.content{
+    font-family: 'Babylonica', cursive;
+    background-image: url("../img/IMAGE.png");
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.content h1{
+    font-size: 100px;
+   color: white;
+   line-height: 11px;
+   padding-top: 40px;
+}
+.content p {
+    color: white;
+}
+.next{
+    background-color:  #FEFEC9;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+}
+button{
+    padding: 7px 16px;
+    border-radius: 9px;
+    background: transparent;
+}
+.odin{
+    text-align: center; 
+    padding: 3rem 20rem;
+}
+.obsh{
+     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 25rem;
+    
+   
+}
+.kat{
+    text-align: center;
+
+}
+
+.man{
+    text-align: center;
+    padding: 3rem 2rem;
+
+}
+ 
+
+
+    
+
+
+    
+   
+
+
+
+
+
+    
+
+ 
